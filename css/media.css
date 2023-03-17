@@ -1,0 +1,305 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+.navbar-toggler{
+	background-color: aqua;
+	border: none;
+}
+.magnify {
+    margin: -180px 0px 0;
+    font-size: 20px;
+}
+.login_btn {
+    margin-top: -130px;
+}
+.ms-2{
+	margin-top: -50px;
+}
+/*header end*/
+/*banner start*/
+.b_text {
+    padding: 40px 0 60px;
+}
+/*banner end*/
+/*service start*/
+.s_item {
+    margin-top: 0px;
+}
+/*service end*/
+/*feature start*/
+.f_item{
+	margin: 10px auto;
+	width: 100%;
+	height: 300px;
+}
+.f_bgimg img{
+	border-radius: 60px;
+	width: 100%;
+	height: 300px;
+}
+/*feature end*/
+/*about*/
+.ab_text{
+	margin-top: 0px;
+}
+/*team*/
+.t_single{
+	margin: 0 auto;
+}
+/*icon*/
+.icon{
+	margin: 40px 0;
+}
+.icon1 {
+    margin-top: 15px;
+}
+.blog_img{
+	margin: 0 auto;
+}
+.f_nav ul {
+	text-align: center;
+    padding-right: 50px;
+}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.navbar-toggler{
+	background-color: aqua;
+	border: none;
+}
+.magnify{
+	margin-bottom: 70px;
+}
+.login_btn{
+	margin-top: -70px;
+}
+/*header end*/
+/*banner start*/
+	.b_h1{
+		font-size: 45px;
+	}
+	.b_text {
+    padding: 60px 0 80px;
+}
+	/*banner end*/
+
+	/*service start*/
+	.s_item {
+    padding: 0 25px;
+
+}
+	/*service end*/
+	/*feature start*/
+	.feature {
+    padding: 25px 0 50px;
+}
+	.f_item{
+		margin: 10px auto;
+	}
+	.f_menu ul li a {
+    margin-right: 0px;
+    padding: 10px;
+
+}
+.f_bgimg img {
+    width: 270px;
+    height: 200px;
+}
+	/*feature end*/
+	/*team start*/
+	.team {
+    padding: 70px 0 60px;
+    background-color: #eff7fa;
+}
+	.t_single {
+	margin: 0 auto;
+    width: 220px;
+    height: 430px;
+}
+	/*team end*/
+	/*blog start*/
+	.blog_img {
+    width: 230px;
+}
+	.blog_item h3 {
+    font-size: 17px;
+}
+	/*blog end*/
+	/*About start*/
+	.ab_text {
+    margin-top: 0px;
+}
+	.ab_text p {
+    font-size: 13px;
+}
+	.ab_btn {
+    width: 160px;
+    height: 30px;
+}
+	.ab_btn:hover{
+	color: #fff;
+	background-color: #33d1cc;
+}
+	/*About end*/
+	/*blog start*/
+
+	/*blog end*/
+	/*newsletter start*/
+	.n_text h1{
+		font-size: 17px;
+	}
+	.n_btn{
+	width: 160px;
+    height: 40px;
+	}
+	/*newsletter end*/
+	/*footer start*/
+	footer{
+		padding: 30px 0 0;
+	}
+	.f_contact button {
+    border: none;
+    width: 200px;
+}
+	.f_nav {
+    padding-right: 10px;
+}
+	.f_contact {
+    padding-right: 0px;
+    padding-top: 17px;
+}
+	/*footer end*/
+	/*icon start*/
+	.icon1 {
+    margin-top: 30px;
+}
+	/*icon end*/
+	
+
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*header start*/
+
+	.menu ul li a {
+    margin-right: 20px;
+    color: #c5ced5;
+}
+	.magnify {
+    margin: 20px 10px;
+    font-size: 22px;
+}
+	.ms-2 {
+    margin: 40px -40px 0px -20px;
+}
+	.login_btn {
+    width: 100px;
+    height: 35px;
+}
+	/*header end*/
+	/*banner start*/
+	.b_h1{
+		font-size: 45px;
+	}
+	.b_text {
+    padding: 60px 0 80px;
+}
+	/*banner end*/
+
+	/*service start*/
+	.s_item {
+    padding: 0 35px;
+
+}
+	/*service end*/
+	/*feature start*/
+	.feature {
+    padding: 25px 0 50px;
+}
+	.f_menu ul li a {
+    margin-right: 0px;
+    padding: 10px;
+
+}
+	.f_item{
+		margin: 10px auto;
+	}
+	.f_bgimg img {
+    width: 270px;
+    height: 200px;
+}
+	/*feature end*/
+	/*team start*/
+	.team {
+    padding: 70px 0 60px;
+    background-color: #eff7fa;
+}
+	.t_single {
+	margin: 0 auto;
+    width: 220px;
+    height: 430px;
+}
+	/*team end*/
+	/*blog start*/
+	.blog_img {
+    width: 300px;
+}
+	/*blog end*/
+	/*About start*/
+	.ab_text {
+    margin-top: 30px;
+}
+	/*About end*/
+	/*newsletter start*/
+	.n_text h1{
+		font-size: 17px;
+	}
+	.n_btn{
+	width: 160px;
+    height: 40px;
+	}
+	/*newsletter end*/
+	/*footer start*/
+	.f_contact button {
+    border: none;
+    width: 330px;
+}
+	.f_nav {
+    padding-right: 48px;
+}
+	/*footer end*/
+
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/*header start*/
+	.ms-2 {
+    margin: 40px -40px 0px -20px;
+}
+	/*header end*/
+	/*feature start*/
+	.f_menu ul li a {
+    margin-right: 0px;
+}
+	/*feature end*/
+	/*team start*/
+	.t_single {
+		margin: 0 auto;
+    width: 265px;
+    height: 460px;
+}
+	/*team end*/
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {}
